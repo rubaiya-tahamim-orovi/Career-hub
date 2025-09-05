@@ -34,7 +34,7 @@ const Job = ({ job }) => {
             <p className="text-[#757575] flex items-center gap-1"> <span className="text-lg"><HiOutlineCurrencyDollar /></span> Salary: {salary}</p>
         </div>
         <div className="card-actions justify-start">
-          <Link to={`/job/${id}`}>
+          <Link to={`/job/${job.id}`}>
           <button className="btn bg-gradient-to-r from-[#7E90FE]  to-[#9873FF] text-white font-bold">View details</button></Link>
         </div>
       </div>
