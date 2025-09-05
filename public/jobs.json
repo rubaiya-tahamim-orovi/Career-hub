@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "logo": "/public/img/netflix.png",
+        "logo": "https://i.ibb.co/zVBLvGh7/netflix.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_or_onsite": "Onsite",
@@ -39,7 +39,7 @@
       },
       {
         "id": 3,
-        "logo": "/public/img/tesla.png",
+        "logo": "https://i.ibb.co/99Cg7cSv/tesla.png",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",
@@ -58,7 +58,7 @@
       },
       {
         "id": 4,
-        "logo": "/public/img/CareerHub.png",
+        "logo": "https://i.ibb.co/NnNztVVV/Career-Hub.png",
         "job_title": "Software Engineer",
         "company_name": "Career Hub",
         "remote_or_onsite": "Onsite",
@@ -77,7 +77,7 @@
       },
       {
         "id": 5,
-        "logo": "/public/img/airbnb.png",
+        "logo": "https://i.ibb.co/MyBkMCVy/airbnb.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Air BNB",
         "remote_or_onsite": "Remote",
@@ -96,7 +96,7 @@
       },
       {
         "id": 6,
-        "logo": "/public/img/netflix.png",
+        "logo": "https://i.ibb.co/zVBLvGh7/netflix.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_or_onsite": "Remote",

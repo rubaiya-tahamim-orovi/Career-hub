@@ -29,8 +29,8 @@ const JobDetails = () => {
       <h2 className="text-3xl text-center mt-7 font-bold  mb-20">Job details</h2>
 
       {/* section start from here */}
-      <div className="grid gap-4 md:grid-cols-6 md:px-0 px-10">
-        <div className="md:col-span-4  space-y-6 mb-3">
+      <div className="grid gap-4 md:grid-cols-6 ">
+        <div className="md:col-span-4  md:px-0 px-10 space-y-6 mb-3">
           <h3>
             <span className="font-bold">Job description :</span>
             <span className="text-[#757575]">{job.job_description} </span>
@@ -54,22 +54,22 @@ const JobDetails = () => {
           </h3>
           
         </div>
-        <div className="md:col-span-2 mb-10">
-           <div className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] space-y-3  px-5 py-3  rounded-lg">
+        <div className="md:col-span-2 md:px-0 px-4  mb-10">
+           <div className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A]  space-y-3 px-3 py-10  rounded-lg">
              <h4 className="text-lg font-bold border-b-1 border-[#7E90FE66] pb-2">Job details</h4>
             <p className="md:flex items-center gap-1">
            <span className="text-lg text-[#9873FF]"><HiOutlineCurrencyDollar /></span> <span className="text-[#474747] font-semibold">Salary :</span> <span className="text-[#757575]  items-center">{job.salary} (Per month)</span>
             </p>
-            <p className="flex items-center gap-1">
+            <p className="md:flex items-center gap-1">
             <span className="text-lg text-[#9873FF]"><IoIosCalendar /></span> <span className="text-[#474747] font-semibold">Job Title : </span> <span className="text-[#757575]">{job.job_title}</span> 
             </p>
 
             {/* contact info */}
              <h4 className="text-lg font-bold border-b-1 border-[#7E90FE66] pb-2">Contact information</h4>
-            <p className="flex items-center gap-1">
+            <p className="md:flex items-center gap-1">
             <span className="text-lg text-[#9873FF]"><FiPhone /></span> <span className="text-[#474747] font-semibold">Phone : </span> <span className="text-[#757575]">{job.contact_information.phone} (Per month)</span>
             </p>
-            <p className="flex items-center gap-1">
+            <p className="md:flex items-center gap-1">
               <span className="text-lg text-[#9873FF]"><MdOutlineMail /></span> <span className="text-[#474747] font-semibold">Email : </span> <span className="text-[#757575]">{job.contact_information.email}</span> 
             </p>
             <p>

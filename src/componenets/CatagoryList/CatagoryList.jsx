@@ -28,7 +28,7 @@ const CatagoryList = () => {
   hover:scale-105
   hover:shadow-lg
        bg-gradient-to-r from-[#7E90FE0D]  to-[#9873FF0D] cursor-pointer p-10 space-y-2">
-        <img className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="../../../public/icons/creative.png" alt="" />
+        <img className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="https://i.ibb.co/rKj24GdJ/creative.png" alt="" />
         <h3 className="text-xl font-bold">Creative Design</h3>
         <p className="text-[#757575]">105 + Jobs Available</p>
       </div>
@@ -38,7 +38,7 @@ const CatagoryList = () => {
   hover:scale-105
   hover:shadow-lg
      bg-gradient-to-r from-[#7E90FE0D]  to-[#9873FF0D] cursor-pointer p-10 space-y-2">
-        <img className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="../../../public/icons/marketing.png" alt="" />
+        <img className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="https://i.ibb.co/1fBZCwh8/marketing.png" alt="" />
         <h3 className="text-xl font-bold">Marketing & Sales</h3>
         <p className="text-[#757575]">150 Jobs Available</p>
       </div>
@@ -48,7 +48,7 @@ const CatagoryList = () => {
   hover:scale-105
   hover:shadow-lg
       bg-gradient-to-r from-[#7E90FE0D]  to-[#9873FF0D] cursor-pointer p-10 space-y-2">
-        <img className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="../../../public/icons/chip.png" alt="" />
+        <img className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="https://i.ibb.co/Jw4fcQVn/chip.png" alt="" />
         <h3 className="text-xl font-bold">Engineering Job</h3>
         <p className="text-[#757575]">224 Jobs Available</p>
       </div>

@@ -12,7 +12,7 @@ const Footer = () => {
               There are many variations of passages of Lorem Ipsum , but the <br />
               majority have suffered alteration in some form.
             </p>
-          <img src="../../../public/icons/social.png" alt="" />
+          <img src="https://i.ibb.co/C31dkY2q/social.png" alt="" />
         </aside>
         <nav className="text-[#FFFFFFB3]">
           <h6 className="text-xl text-white">Company</h6>
