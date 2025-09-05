@@ -27,7 +27,7 @@ const AppliedJobs = () => {
 
   useEffect(() => {
     const storedJobIds = getStoredJobApplication();
-    if (Array.isArray(jobs) && jobs.length > 0) {
+    if (jobs.length > 0) {
       // const jobsApplied = jobs.filter(job => storedJobIds.includes(job.id))
 
       const jobsApplied = [];
