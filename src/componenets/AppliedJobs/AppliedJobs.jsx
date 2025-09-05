@@ -41,9 +41,9 @@ const AppliedJobs = () => {
   }, []);
   return (
     <div>
-      <h2 className="text-2xl">Jobs i applied for {appliedJobs.length}</h2>
+      <h2 className="text-3xl font-bold mt-7 mb-20 text-center">Applied Jobs : {appliedJobs.length}</h2>
 
-      <div className="my-5 space-y-4">
+      <div className="my-5 space-y-4 md:px-0 px-3">
         <div className="flex justify-end">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn m-1">

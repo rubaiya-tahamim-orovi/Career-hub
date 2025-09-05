@@ -26,11 +26,11 @@ const JobDetails = () => {
   }
   return (
     <div>
-      <h2 className="text-3xl">Job details</h2>
+      <h2 className="text-3xl text-center mt-7 font-bold  mb-20">Job details</h2>
 
       {/* section start from here */}
-      <div className="grid gap-4 md:grid-cols-6">
-        <div className="md:col-span-4  space-y-6">
+      <div className="grid gap-4 md:grid-cols-6 md:px-0 px-10">
+        <div className="md:col-span-4  space-y-6 mb-3">
           <h3>
             <span className="font-bold">Job description :</span>
             <span className="text-[#757575]">{job.job_description} </span>
@@ -54,7 +54,7 @@ const JobDetails = () => {
           </h3>
           
         </div>
-        <div className="md:col-span-2">
+        <div className="md:col-span-2 mb-10">
            <div className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] space-y-3  px-5 py-3  rounded-lg">
              <h4 className="text-lg font-bold border-b-1 border-[#7E90FE66] pb-2">Job details</h4>
             <p className="md:flex items-center gap-1">

@@ -27,7 +27,7 @@ const ApplyJobSec = ({apply}) => {
             </div>
 
             {/* button div */} 
-              <div className=''>
+              <div className='mt-3'>
                      <button className="btn bg-gradient-to-r from-[#7E90FE]  to-[#9873FF] text-white font-bold">View details</button>
                 </div>
             

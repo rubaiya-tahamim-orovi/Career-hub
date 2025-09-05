@@ -17,7 +17,7 @@ const Job = ({ job }) => {
       <figure>
         <img
           src={logo} 
-          alt="Shoes"
+          alt="company_logo"
         />
       </figure>
       <div className="card py-5 space-y-3">
