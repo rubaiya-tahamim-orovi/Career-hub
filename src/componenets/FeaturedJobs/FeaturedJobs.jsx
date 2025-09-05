@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Job from "../Job/Job";
 
+
 const FeaturedJobs = () => {
   const [jobs, setJobs] = useState([]);
   // this is not the best way to load the show all data.
@@ -10,6 +11,7 @@ const FeaturedJobs = () => {
     fetch("jobs.json")
       .then(res => res.json())
       .then(data => setJobs(data));
+      
   }, []);
   return (
     <div className="mt-14">
