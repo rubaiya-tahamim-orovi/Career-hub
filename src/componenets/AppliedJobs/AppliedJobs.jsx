@@ -51,7 +51,7 @@ const AppliedJobs = () => {
         <div className="flex justify-end">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn m-1">
-              Filte by <IoIosArrowDown />
+              Filter by <IoIosArrowDown />
             </div>
             <ul
               tabIndex={0}
