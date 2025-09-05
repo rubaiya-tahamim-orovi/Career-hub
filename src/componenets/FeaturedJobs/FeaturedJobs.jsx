@@ -8,8 +8,8 @@ const FeaturedJobs = () => {
 
   useEffect(() => {
     fetch("jobs.json")
-      .then((res) => res.json())
-      .then((data) => setJobs(data));
+      .then(res => res.json())
+      .then(data => setJobs(data));
   }, []);
   return (
     <div className="mt-14">
