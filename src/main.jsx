@@ -8,6 +8,8 @@ import Root from './componenets/Root/Root.jsx';
 import Home from './componenets/Home/Home.jsx';
 import AppliedJobs from './componenets/AppliedJobs/AppliedJobs.jsx';
 import ErrorPage from './componenets/ErrorPage/ErrorPage.jsx';
+import JobDetails from './componenets/JobDetails/JobDetails.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,13 @@ const router = createBrowserRouter([
       },
       {
         path: '/applied',
-        element: <AppliedJobs></AppliedJobs>
+        element: <AppliedJobs></AppliedJobs>,
+        loader: () => fetch('../public/jobs.json')
+      },
+      {
+        path: '/job/:id',
+        element: <JobDetails></JobDetails>,
+        loader: () =>  fetch('../public/jobs.json') //do not load all data, load only what you need
       }
     ]
   },

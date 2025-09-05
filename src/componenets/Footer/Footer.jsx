@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-    return (
-        <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
-  <aside>
+  return (
+    <footer className="sm:footer-horizontal bg-base-200 text-base-content p-10">
+    <div className="footer flex justify-around">
+         <aside>
     <svg
       width="50"
       height="50"
@@ -41,8 +42,9 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
-</footer>
-    );
+    </div>
+    </footer>
+  );
 };
 
 export default Footer;
