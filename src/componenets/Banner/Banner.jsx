@@ -20,7 +20,7 @@ const Banner = () => {
       </div>
 
       <div>
-        <img src="../../../public/images/user.png" alt="" />
+        <img src="https://i.ibb.co/rK95mcNx/user.png" alt="not found" />
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ const CatagoryList = () => {
   hover:scale-105
   hover:shadow-lg  p-10 space-y-2">
         <img className="flex
-          bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="../../../public/icons/accounts.png" alt="" />
+          bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A] p-4 rounded-lg" src="https://i.ibb.co/DPKMqSFJ/accounts.png" alt="" />
         <h3 className="text-xl font-bold">Acount & Finance</h3>
         <p className="text-[#757575]">300 Jobs Available</p>
       </div>
