@@ -55,7 +55,7 @@ const JobDetails = () => {
           
         </div>
         <div className="md:col-span-2 md:px-0 px-4  mb-10">
-           <div className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A]  space-y-3 px-3 py-10  rounded-lg">
+           <div className="bg-gradient-to-r from-[#7E90FE1A]  to-[#9873FF1A]  space-y-3 px-3 py-5  rounded-lg">
              <h4 className="text-lg font-bold border-b-1 border-[#7E90FE66] pb-2">Job details</h4>
             <p className="md:flex items-center gap-1">
            <span className="text-lg text-[#9873FF]"><HiOutlineCurrencyDollar /></span> <span className="text-[#474747] font-semibold">Salary :</span> <span className="text-[#757575]  items-center">{job.salary} (Per month)</span>
